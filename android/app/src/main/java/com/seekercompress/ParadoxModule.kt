@@ -14,14 +14,14 @@ class ParadoxModule(reactContext: ReactApplicationContext) : ReactContextBaseJav
     @ReactMethod
     fun getCommand(inputPath: String, outputPath: String, mode: String, promise: Promise) {
         try {
-            val cmd = generateGodModeCommand(inputPath, outputPath, mode)
+            val cmd = generateParadoxCommand(inputPath, outputPath, mode)
             promise.resolve(cmd)
         } catch (e: Exception) {
             promise.reject("ERR_PARADOX", e.message)
         }
     }
 
-    private fun generateGodModeCommand(input: String, output: String, mode: String): String {
+    private fun generateParadoxCommand(input: String, output: String, mode: String): String {
         // Parad0x Labs Image/Video Compression Engine
         // Proprietary filter chains for maximum compression with quality preservation
         val vf: String
