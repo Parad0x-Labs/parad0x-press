@@ -83,10 +83,13 @@ yarn-error.log
 *.env
 
 # Keystore files (CRITICAL)
+# Keystore files (CRITICAL)
 *.jks
 *.keystore
 release.keystore
 upload-keystore.jks
+!debug.keystore
+!android/app/debug.keystore
 
 # API Keys / Secrets
 secrets.json
