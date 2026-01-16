@@ -5,19 +5,26 @@
 </p>
 
 <p align="center">
-  <b>Premium Media Compression for Solana Seeker</b><br>
-  <i>NFT-Gated | 99% Quality | Up to 100x Compression</i>
+  <b>Premium Media Compression for Android</b><br>
+  <i>Parad0x Labs Compression Engine</i>
 </p>
 
 ---
 
 ## Features
 
-- **Parad0x Labs Compression Engine**: Proprietary algorithms achieving up to 100x file size reduction.
-- **Quality Preservation**: SSIM-gated encoding ensures 99%+ visual and audio fidelity.
-- **Solana Seeker Exclusive**: Free for Seeker owners. NFT license required for other devices.
+- **Parad0x Labs Compression Engine**: Proprietary algorithms for high-efficiency media compression.
+- **Quality Preservation**: SSIM-gated encoding to maintain visual and audio fidelity.
+- **Multiple Modes**: Safe mode (minimal compression, maximum quality) or Balanced mode (optimized for sharing).
 - **Atomic Safety**: Zero data loss guarantee. Originals are only replaced after verification.
 - **Local-Only Privacy**: All compression happens on-device.
+
+## Pricing
+
+| Device | Access |
+|--------|--------|
+| Solana Seeker | Free |
+| Other Android | $19.99 (Golden Ticket NFT required) |
 
 ## Installation
 
@@ -29,14 +36,7 @@
 ### For Other Android Devices
 1. Download the APK.
 2. Install and connect your Solana wallet.
-3. Purchase a **Parad0x Golden Ticket** ($19.99) or receive an airdrop.
-
-## Access Control
-
-| Device | Access |
-|--------|--------|
-| Solana Seeker | Free |
-| Other Android | Requires Golden Ticket NFT |
+3. Purchase a **Parad0x Golden Ticket** ($19.99) to unlock.
 
 ## Build from Source
 
@@ -49,10 +49,10 @@ npx react-native run-android --mode=release
 
 ## Compression Modes
 
-| Mode | Quality | Use Case |
-|------|---------|----------|
-| **Safe** | 99%+ (SSIM > 0.995) | Archival, Professional |
-| **Balanced** | ~88% (SSIM > 0.990) | Social Media, Sharing |
+| Mode | Description | Use Case |
+|------|-------------|----------|
+| **Safe** | Minimal compression, maximum quality | Archival, Professional |
+| **Balanced** | Optimized compression for sharing | Social Media, Messaging |
 
 ## Supported Media
 
